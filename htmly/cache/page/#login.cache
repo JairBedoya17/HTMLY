@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="generator" content="HTMLy v2.7.4" />
+<link rel="icon" type="image/x-icon" href="http://jairbedoya.com:8001/favicon.ico" />
+<link rel="sitemap" href="http://jairbedoya.com:8001/sitemap.xml" />
+<link rel="alternate" type="application/rss+xml" title="Htmly Feed" href="http://jairbedoya.com:8001/feed/rss" />
+
+    <title>Login - Htmly</title>
+    <meta name="description" content="Login page from Htmly."/>
+            <link rel="canonical" href="http://jairbedoya.com:8001//login" />
+        <link href="http://jairbedoya.com:8001/system/resources/css/admin.css" rel="stylesheet"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+        <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="admin in-login" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<div class="hide">
+    <meta content="Htmly" itemprop="name"/>
+    <meta content="Proudly powered by HTMLy, a databaseless blogging platform." itemprop="description"/>
+</div>
+<div id="outer-wrapper">
+    <div id="menu-wrapper">
+        <div class="container">
+            <nav id="menu">
+                <ul class="nav "><li class="item first"><a href="http://jairbedoya.com:8001/">Home</a></li></ul>                    <form id="search-form" method="get">
+        <input type="text" class="search-input" name="search" value="Search" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}">
+        <input type="submit" value="Search" class="search-button">
+    </form>            </nav>
+        </div>
+    </div>
+    <div id="header-wrapper">
+        <div class="container">
+            <header id="header">
+                <section id="branding">
+                    <h1 class="blog-title"><a href="http://jairbedoya.com:8001/">Htmly</a></h1>
+                    <div class="blog-tagline"><p>Htmly Blog</p></div>
+                </section>
+            </header>
+        </div>
+    </div>
+    <div id="content-wrapper">
+        <div class="container">
+            <section id="content">
+                <h1>Login</h1>
+    <form method="POST" action="login">
+        User <span class="required">*</span> <br>
+        <input type="text" class="" name="user"/><br><br>
+        Password <span class="required">*</span> <br>
+        <input type="password" class="" name="password"/><br><br>
+        <input type="hidden" name="csrf_token" value="d7f6a52a978ad66a3daab74165f99c44591c8dbb">
+                <input type="submit" name="submit" value="Login"/>
+    </form>            </section>
+        </div>
+    </div>
+    <div id="footer-wrapper">
+        <div class="container">
+            <footer id="footer">
+                <div class="copyright"><p>Jail</p><p>Proudly powered by <a href="http://www.htmly.com" target="_blank">HTMLy</a></p></div>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>
